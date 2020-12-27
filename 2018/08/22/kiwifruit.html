@@ -114,14 +114,15 @@ texture, with a sweet and unique flavor.</p>
     }
 
     if(readCookie('cookie-notice-dismissed')=='true') {
-        
-async src="https://www.googletagmanager.com/gtag/js?id=G-JRGQS6TBLR"
-
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRGQS6TBLR"></script>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-JRGQS6TBLR');
+</script>
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
